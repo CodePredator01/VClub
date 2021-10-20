@@ -3,7 +3,7 @@
 
 A full stack project developed as a mini-project.
 
-## Collaborators
+## Collaborators 
 - [CodePredator01](https://github.com/CodePredator01)
 - [Srijanmishra99](https://github.com/Srijanmishra99)
 - [HardikPratap ](https://github.com/HardikPratap)
