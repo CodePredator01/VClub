@@ -1,4 +1,4 @@
-# [RESU.ME](https://github.com/CodePredator01/VClub/)
+# [VClub](https://github.com/CodePredator01/VClub/)
 ## An open source Video Communication Web App
 
 A full stack project developed as a mini-project.
