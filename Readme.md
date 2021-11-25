@@ -1,6 +1,7 @@
 # [VClub](https://github.com/CodePredator01/VClub/)
 ## An open source Video Communication Web App
-![](assets/logo.jpg)
+
+<img src="assets/logo.jpg" alt="logo" style="width:200px;"/>
 
 A full stack project developed as a mini-project.
 
