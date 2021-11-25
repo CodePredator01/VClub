@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #400372;
+    color: rgb(245, 249, 252);
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 1400px;
+    margin: 0 auto;
+    height: 75vh;
+}
+
+#site-title {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+}
+
+
+#join-wrapper{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
