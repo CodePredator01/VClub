@@ -1,60 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <link rel="icon" href="assets/logo.ico">
-    <title>VClub</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+    <title>Template-1</title>
 </head>
 <body>
-
-    <main>
-
-     
-
-
-        <!-- <div id="users-list"></div> -->
-
-        <h1 id="site-title">VClub</h1>
-        <div id="join-wrapper">
-            <input id="username" type="text" placeholder="Enter your name..." />
-            <button id="join-btn">Join Stream</button>
-        </div>
-        <div id="user-streams" ></div>
-        
-
-
-        <!-- Wrapper for join button -->
-        <div id="footer">
-            <div class="icon-wrapper">
-                <img class="control-icon" id="camera-btn" src="./assets/video.svg" />
-                <p>Cam</p>
-            </div>
-
-            <div class="icon-wrapper">
-                <img class="control-icon" id="mic-btn" src="./assets/microphone.svg" />
-                <p>Mic</p>
-            </div>
-
-            <div class="icon-wrapper">
-                <img class="control-icon" id="leave-btn" src="./assets/leave.svg" />
-                <p>Leave</p>
-            </div>
-            
-           
-            
-            
+    <div class="container">
+        <div class="nav">  
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+            <img src="logo.ico" alt="logoPic">
+            <ul>
+                <li class="navbar"><a href="#" class="active" >Home</a></li>
+                <li class="navbar"><a href="./about/about.html" class="" >About</a></li>
+                <li class="navbar"><a href="#" class="" >Contact</a></li>
+            </ul>
         </div>
 
-    </main>
+        <div class="tag">
+            <h1>VCLUB</h1>
+            <p>VClub the video calling web - once you use it, you love it. <br><br><i>Smooth & glossy</i></p>
+            <h3></h3>
+        </div>
 
-    <script src="https://download.agora.io/sdk/release/AgoraRTC_N.js"></script> 
-    <script src='script.js'></script>
+        <div class="buttons">
+            <a class="btn" href="index1.html">GO TO MEETING</a>
+        </div>
+
+    </div>
 </body>
 </html>

@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&family=Noto+Sans+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 100%;
+    height: 738px;
+    background-color: rgba(19, 17, 17, 0.719);
+}
+
+
+img{
+    float: left;
+    padding:10px 0 0 40px;
+    width:100px;
+    line-height:43px;
+}
+
+ul{
+    float: right;
+    padding-right: 80px;
+}
+
+ul li{
+    display: inline-block;
+    padding:10px 20px 0 0;
+}
+
+ul li a{
+    color: rgb(255, 255, 255);
+    padding-bottom: 5px;;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav ul li a:hover, .nav ul li a:active, .active{
+    border-bottom: 2px solid rgb(13, 235, 13);
+}
+
+#check{
+    display: none;
+}
+
+.checkbtn{
+    color: #ffff;
+    font-size:25px;
+    float: right;
+    line-height:43px;
+    padding-right: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+/* tag line */
+
+.tag{
+    text-align: center;
+    width: 100%;
+    padding:250px 150px 0 150px;
+    color: #ffff;
+}
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+    color: goldenrod;
+    font-weight: bold;
+    letter-spacing:3px;
+    padding-bottom: 30px;
+}
+
+h3{
+
+}
+
+p{
+    font-family: arial,sans-serif;
+    margin-bottom:50px;
+}
+
+/* buttons */
+
+.buttons{
+    text-align: center;
+}
+
+.btn {
+    background: #F6C604;
+    border-radius: 30px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    padding: 15px 30px 15px 30px;
+    margin: 10px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #4ad1bf;
+    text-decoration: none;
+  }
+
+  .btnn{
+      background:#0000002d;
+      color:#ffff;
+      border: 1px solid #fff;
+  }
+  
+  
+
+
+@media (max-width: 790px) {
+
+   img{
+       width:75px;
+   }
+
+    .checkbtn{
+        display: block;
+    }
+
+    ul{
+        position: fixed;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        padding-right: 0;;
+        background: #23303d;
+        top: 43px;
+        left: -100%;
+        transition: 0.5s;
+    }
+
+    .nav ul li {
+        display: block;
+        padding-bottom: 20px;
+        margin: 50px 0 ;
+        line-height:20px;
+    }
+
+    .nav ul li a {
+        font-size:22px;
+    }
+
+    .nav ul li a:hover, .nav ul li a:active, .active{
+        border-bottom:none;
+        color:#4ad1bf;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+}
